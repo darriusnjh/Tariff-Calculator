@@ -1,0 +1,27 @@
+-- Insert dummy tariff data
+INSERT INTO tariff (origin_country, destination_country, product_category, rate) VALUES
+('USA', 'Canada', 'Electronics', 5.5),
+('USA', 'Canada', 'Clothing', 12.0),
+('USA', 'Canada', 'Food', 3.2),
+('USA', 'Mexico', 'Electronics', 8.0),
+('USA', 'Mexico', 'Clothing', 15.5),
+('USA', 'Mexico', 'Food', 2.8),
+('Canada', 'USA', 'Electronics', 6.2),
+('Canada', 'USA', 'Clothing', 10.5),
+('Canada', 'USA', 'Food', 4.1),
+('Mexico', 'USA', 'Electronics', 7.8),
+('Mexico', 'USA', 'Clothing', 13.2),
+('Mexico', 'USA', 'Food', 3.5),
+('USA', 'UK', 'Electronics', 20.0),
+('USA', 'UK', 'Clothing', 25.5),
+('USA', 'UK', 'Food', 18.2),
+('UK', 'USA', 'Electronics', 22.5),
+('UK', 'USA', 'Clothing', 28.0),
+('UK', 'USA', 'Food', 16.8),
+('China', 'USA', 'Electronics', 25.0),
+('China', 'USA', 'Clothing', 30.2),
+('China', 'USA', 'Food', 15.5),
+('USA', 'China', 'Electronics', 18.5),
+('USA', 'China', 'Clothing', 22.8),
+('USA', 'China', 'Food', 12.3);
+
